@@ -1,0 +1,7 @@
+canvas {
+    width: 100%;
+    height: auto;
+}
+
+.vex.vex-theme-os .vex-content { width: 960px; overflow: hidden; }
+#gallery { padding: 0px; }

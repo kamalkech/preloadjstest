@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Vex Modal</title>
+    <link rel="stylesheet" href="css/vex/vex.css" />
+    <link rel="stylesheet" href="css/vex/vex-theme-os.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>Modal Vexsss</h1>
+    </div>
+
+    <script src="js/vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/vex/vex.combined.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            vex.defaultOptions.className = 'vex-theme-os';
+            vex.open({
+                content: $('.container'),
+                afterOpen: function($vexContent) {
+                    return $vexContent.append($el);
+                },
+                afterClose: function() {
+                    return console.log('vexClose');
+                }
+            });
+        });
+
+    </script>
+
+</body>
+</html>

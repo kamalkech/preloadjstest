@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PreloadJS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- loaf file css of vex modal -->
+    <link rel="stylesheet" href="css/vex/vex.css" />
+    <link rel="stylesheet" href="css/vex/vex-theme-os.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="init()">
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Preload JS</h1>
+        </div>
+    </div><!-- fin jumbotron -->
+
+    <div class="container">
+        <div class="row">
+            <div id="gallery" class="col-md-12">
+                <canvas id="myCanvas" width="960" height="450"></canvas>
+            </div> <!-- /col-md-4 -->
+        </div>
+    </div><!-- fin container -->
+
+    <script src="js/vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="js/vendor/preloadjs/preloadjs-0.6.0.min.js"></script>
+    <script src="js/vendor/vex/vex.combined.min.js"></script>
+
+    <!-- Load files libs for preloadjs gallery -->
+    <script src="js/vendor/preloadjs/libs/easeljs-NEXT.min.js"></script>
+    <script src="js/vendor/preloadjs/libs/tweenjs-NEXT.min.js"></script>
+    <script type="text/javascript" src="js/vendor/preloadjs/libs/preloadjs-NEXT.combined.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
