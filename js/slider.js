@@ -40,8 +40,6 @@ function init() {
 
     stage.addChild(loaderBar);
 
-
-      
     manifest = [
         {src: "image0.jpg", id: "image0"},
         {src: "image1.jpg", id: "image1"},
