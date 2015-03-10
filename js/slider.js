@@ -38,8 +38,8 @@ function init() {
     loaderBar.y = canvas.height - barHeight >> 1;
     loaderBar.addChild(bar, bgBar);
 
-    stage.addChild(loaderBar); 
-
+    stage.addChild(loaderBar);
+ 
     manifest = [
         {src: "image0.jpg", id: "image0"},
         {src: "image1.jpg", id: "image1"},
